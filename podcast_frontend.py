@@ -38,7 +38,7 @@ def main():
             st.image(podcast_info['podcast_details']['episode_image'], caption="Podcast Cover", width=300, use_column_width=True)
 
         # Display the podcast guest details
-        st.subheader("Podcast Guest")
+        st.subheader("Podcast Guest and Subject")
         st.write(podcast_info['podcast_guest'])
 
         # Display the key moments
@@ -79,7 +79,7 @@ def main():
             st.image(podcast_info['podcast_details']['episode_image'], caption="Podcast Cover", width=300, use_column_width=True)
 
         # Display the podcast guest details
-        st.subheader("Podcast Guest")
+        st.subheader("Podcast Guest and Subject")
         st.write(podcast_info['podcast_guest'])
 
         # Display the five key moments
